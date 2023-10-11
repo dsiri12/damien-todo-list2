@@ -1,0 +1,168 @@
+.to-do-list-design {
+  align-items: flex-start;
+  background-color: #1e1f25;
+  display: flex;
+  gap: 10px;
+  min-height: 435px;
+  min-width: 499px;
+  position: relative;
+  width: 100%;
+}
+
+.to-do-list-design .to-do-list-container {
+  align-items: flex-start;
+  background-color: #1d1e25;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding: 64px 57px;
+  position: relative;
+  width: 414px;
+}
+
+.to-do-list-design .header {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.to-do-list-design .title-notes {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  position: relative;
+}
+
+.to-do-list-design .text-wrapper {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 56px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}
+
+.to-do-list-design .div {
+  align-self: stretch;
+  color: #9393b7;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.to-do-list-design .emoji {
+  align-items: flex-start;
+  background-color: #24242c;
+  border: 1px solid;
+  border-color: #28282e;
+  border-radius: 6px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  padding: 16px;
+  position: relative;
+}
+
+.to-do-list-design .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.to-do-list-design .divider {
+  align-self: stretch;
+  background-color: #434343;
+  height: 1px;
+  position: relative;
+  width: 100%;
+}
+
+.to-do-list-design .to-do-complete {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.to-do-list-design .image {
+  height: 24px;
+  object-fit: cover;
+  position: relative;
+  width: 24px;
+}
+
+.to-do-list-design .text-wrapper-3 {
+  color: #7c7c93;
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.to-do-list-design .to-do-incomplete {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  margin-right: -57px;
+  position: relative;
+}
+
+.to-do-list-design .text-wrapper-4 {
+  color: #dadada;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  width: 323px;
+}
+
+.to-do-list-design .add-to-do {
+  align-self: stretch;
+  background-color: transparent;
+  border: 0;
+  color: #7c7c93;
+  flex: 0 0 auto;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
